@@ -1,0 +1,6 @@
+td {
+  font-size: 1em;
+}
+td.unobtainable {
+  color: red;
+}
