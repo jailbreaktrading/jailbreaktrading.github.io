@@ -1,6 +1,46 @@
-td {
-  font-size: 1em;
-}
 td.unobtainable {
   color: red;
 }
+
+h1 {}
+
+
+.w3-card {
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.jt-ItemName {
+  font-size: 3em;
+}
+
+
+.jt-orange {
+  color: f97b31;
+}
+
+.jt-red {
+  color: f8272f;
+}
+
+.jt-blue {
+  color: 3accff;
+}
+
+.jt-green {
+  color: 31cc31;
+}
+
+.jt-black {
+  color: 000;
+}
+
+.jt-white {
+  color: fff;
+}
+
+jt-unobtainable {
+  font-size: x-large;
+}
+

@@ -4,17 +4,17 @@ function Search()
     var success = false;
     
     var results = "";
-    results += ("<table>");
+    /* results += ("<table>");
     results += ("<tr>");
     results += ("<th>Item Name</th>");
     results += ("<th>Category</th>");
-    results += ("<th>Sub Category</th>");
-    results += ("<th>Current Value</th>");
     results += ("<th>Unobtainable</th>");
-    results += ("<th>Demand</th>");
+    // results += ("<th>Sub Category</th>");
     results += ("<th>Release Price</th>");
-    results += ("<th>Wiki Link</th>");
-    results += ("</tr>");
+    results += ("<th>Current Value</th>");
+    results += ("<th>Demand</th>");
+    // results += ("<th>Wiki Link</th>");
+    results += ("</tr>"); */
 
     for(var i = 0; i < data.length; i++)
     {
@@ -22,16 +22,17 @@ function Search()
 
         if(match != null) 
         {
-            results += ("<tr>");
-            results += ("<td>" + data[i].ItemName+ "</td>");
-            results += ("<td>" + data[i].Category+ "</td>");
-            results += ("<td>" + data[i].Subcategory+ "</td>");
-            results += ("<td>" + data[i].CurrentValue+ "</td>");
-            results += ("<td " + (data[i].Unobtainable == "True" ? "class='unobtainable'" : "") + ">" + data[i].Unobtainable+ "</td>");
-            results += ("<td>" + data[i].Demand+ "</td>");
-            results += ("<td>" + data[i].ReleasePrice+ "</td>");
-            results += ("<td><a target='_blank' href='" + data[i].JailbreakWikiLink+ "'>" + data[i].JailbreakWikiLink+"</a></td>");
-            results += ("</tr>");
+            // results += ("<tr>");
+            // results += ("<td>" + data[i].ItemName+ "</td>");
+            results += ("<p class='jt-ItemName jt-red'><a target='_blank' href='" + data[i].JailbreakWikiLink+ "'>" + data[i].ItemName+" ("+data[i].Demand+")"+"</a></p>");
+            results += ("<p class='jt-Category jt-orange'>" + data[i].Subcategory+ " "+ data[i].Category+ "</p>");
+            results += ("<p class='jt-Unobtainable jt-blue'"+ ">" + data[i].Unobtainable+ "</p>");
+            // results += ("<td>" + data[i].Subcategory+ "</td>");
+            results += ("<p class='jt-ReleasePrice'>" + "Released at "+ data[i].ReleasePrice+ "</p>");
+            results += ("<p class='jt-CurrentValue jt-green'>" + "Worth "+ data[i].CurrentValue+ "</p>");
+            // results += ("<p class='jt-Demand'>" + "Demand: "+ data[i].Demand+ "</p>");
+            // results += ("<td><a target='_blank' href='" + data[i].JailbreakWikiLink+ "'>" + "Wiki Link"+"</a></td>");
+            // results += ("</tr>");
             success = true;
         }
     }

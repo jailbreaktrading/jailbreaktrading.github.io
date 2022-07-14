@@ -5,7 +5,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$750,000",
       CurrentValue: "$45,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Torpedo"
     },
@@ -15,7 +15,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$750,000",
       CurrentValue: "$22,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Arachnid"
     },
@@ -25,7 +25,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$100,000",
       CurrentValue: "$15,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Beam_Hybrid"
     },
@@ -35,7 +35,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$500,000",
       CurrentValue: "$7,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Brulee"
     },
@@ -45,7 +45,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$200,000",
       CurrentValue: "$5,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/JB8"
     },
@@ -55,7 +55,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$500,000",
       CurrentValue: "$5,400,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Beignet"
     },
@@ -65,7 +65,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "599,000",
       CurrentValue: "$5,300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/M12_Molten"
     },
@@ -75,7 +75,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$150,000",
       CurrentValue: "$5,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Raptor"
     },
@@ -85,7 +85,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "Free at season 10 level 10",
       CurrentValue: "$3,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "10/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Macaron"
     },
@@ -95,7 +95,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "Free at Season 7 level 10",
       CurrentValue: "$2,700,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Icebreaker"
     },
@@ -105,7 +105,7 @@ var data = [
       Subcategory: "Aircraft",
       ReleasePrice: "Free at Season 8 Level 10",
       CurrentValue: "$2,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Celsior"
     },
@@ -115,7 +115,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "$600,000",
       CurrentValue: "$2,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Agent"
     },
@@ -125,7 +125,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$599,000",
       CurrentValue: "$2,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Torero"
     },
@@ -135,7 +135,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$600,000",
       CurrentValue: "$2,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Airtail"
     },
@@ -145,7 +145,7 @@ var data = [
       Subcategory: "Aircraft",
       ReleasePrice: "Free at Season 2 Level 10",
       CurrentValue: "$1,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Crew_Capsule"
     },
@@ -155,7 +155,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "Free at Season 3 Level 10",
       CurrentValue: "$1,400,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Volt_4x4"
     },
@@ -165,7 +165,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "Free at Season 4 Level 10",
       CurrentValue: "$1,400,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Rattler"
     },
@@ -175,7 +175,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "Free at Season 5 Level 10",
       CurrentValue: "$1,300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Banana_Car"
     },
@@ -185,7 +185,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "Free at Season 9 Level 8",
       CurrentValue: "$1,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "4/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Jackrabbit"
     },
@@ -195,7 +195,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$25,000",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "3/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Mighty"
     },
@@ -205,7 +205,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$50,000",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "3/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Steed"
     },
@@ -215,7 +215,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$70,000",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "3/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Posh"
     },
@@ -225,7 +225,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$40,000",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "3/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/SUV"
     },
@@ -235,7 +235,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$50,000",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "3/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Classic"
     },
@@ -245,7 +245,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "$2,500,000",
       CurrentValue: "$2,500,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "4/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Concept"
     },
@@ -255,7 +255,7 @@ var data = [
       Subcategory: "Aircraft",
       ReleasePrice: "$1,000,000",
       CurrentValue: "$1,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Black_Hawk"
     },
@@ -265,7 +265,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "$1,000,000",
       CurrentValue: "$1,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Volt"
     },
@@ -275,7 +275,7 @@ var data = [
       Subcategory: "Aircraft",
       ReleasePrice: "$1,000,000",
       CurrentValue: "$1,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Drone"
     },
@@ -285,7 +285,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$1,000,000",
       CurrentValue: "$1,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Trailblazer"
     },
@@ -295,7 +295,7 @@ var data = [
       Subcategory: "Aircraft",
       ReleasePrice: "$1,000,000",
       CurrentValue: "$1,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Jet"
     },
@@ -305,7 +305,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "$1,000,000",
       CurrentValue: "$1,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Tank"
     },
@@ -315,7 +315,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$1,000,000",
       CurrentValue: "$1,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Monster_Truck"
     },
@@ -325,7 +325,7 @@ var data = [
       Subcategory: "Watercraft",
       ReleasePrice: "$1,000,000",
       CurrentValue: "$1,000,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Sloop"
     },
@@ -335,7 +335,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$600,000",
       CurrentValue: "$600,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Roadster"
     },
@@ -345,7 +345,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$599,000",
       CurrentValue: "$500,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Eclaire"
     },
@@ -355,7 +355,7 @@ var data = [
       Subcategory: "Aircraft",
       ReleasePrice: "$500,000",
       CurrentValue: "$500,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/UFO"
     },
@@ -365,7 +365,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$250,000",
       CurrentValue: "$250,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Sentinel"
     },
@@ -375,7 +375,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$200,000",
       CurrentValue: "$200,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Stallion"
     },
@@ -385,7 +385,7 @@ var data = [
       Subcategory: "Aircraft",
       ReleasePrice: "$200,000",
       CurrentValue: "$200,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Stunt"
     },
@@ -395,7 +395,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$199,000",
       CurrentValue: "$199,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Ray_9"
     },
@@ -405,7 +405,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "$175,000",
       CurrentValue: "$175,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Delorean"
     },
@@ -415,7 +415,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "$175,000",
       CurrentValue: "$175,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Firetruck"
     },
@@ -425,7 +425,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$109,000",
       CurrentValue: "$109,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Surus"
     },
@@ -435,7 +435,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$100,000",
       CurrentValue: "$100,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Cybertruck"
     },
@@ -445,7 +445,7 @@ var data = [
       Subcategory: "Super",
       ReleasePrice: "$100,000",
       CurrentValue: "$100,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/La_Matador"
     },
@@ -455,7 +455,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "$90,000",
       CurrentValue: "$90,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Ambulance"
     },
@@ -465,7 +465,7 @@ var data = [
       Subcategory: "Special",
       ReleasePrice: "$80,000",
       CurrentValue: "$80,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Tow_Truck"
     },
@@ -475,7 +475,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$79,000",
       CurrentValue: "$79,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Camper"
     },
@@ -485,7 +485,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$59,000",
       CurrentValue: "$59,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Challenger"
     },
@@ -495,7 +495,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$55,000",
       CurrentValue: "$55,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Boxer"
     },
@@ -505,7 +505,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$50,000",
       CurrentValue: "$50,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/ATV"
     },
@@ -515,7 +515,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$45,000",
       CurrentValue: "$45,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Badger"
     },
@@ -525,7 +525,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$45,000",
       CurrentValue: "$45,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Patrol"
     },
@@ -535,7 +535,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$45,000",
       CurrentValue: "$45,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Dunebuggy"
     },
@@ -545,7 +545,7 @@ var data = [
       Subcategory: "Offroad",
       ReleasePrice: "$35,000",
       CurrentValue: "$35,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Dirtbike"
     },
@@ -555,7 +555,7 @@ var data = [
       Subcategory: "Watercraft",
       ReleasePrice: "$35,000",
       CurrentValue: "$35,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Cruiser"
     },
@@ -565,7 +565,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$30,000",
       CurrentValue: "$30,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Interrogator"
     },
@@ -575,7 +575,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$25,000",
       CurrentValue: "$25,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Vin_Ray"
     },
@@ -585,7 +585,7 @@ var data = [
       Subcategory: "Watercraft",
       ReleasePrice: "$25,000",
       CurrentValue: "$25,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Jet_Ski"
     },
@@ -595,7 +595,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$16,000",
       CurrentValue: "$16,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Model_3"
     },
@@ -605,7 +605,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$10,000",
       CurrentValue: "$10,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Deja"
     },
@@ -615,7 +615,7 @@ var data = [
       Subcategory: "General",
       ReleasePrice: "$9,000",
       CurrentValue: "$9,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: "https://jailbreak.fandom.com/wiki/Pickup"
     },
@@ -625,7 +625,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Given to players on first week of release",
       CurrentValue: "$3,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: ""
     },
@@ -635,7 +635,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Season 2 Level 5",
       CurrentValue: "$2,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: ""
     },
@@ -645,7 +645,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free when nuked from 5/3/2020 to 6/4/2021",
       CurrentValue: "$1,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -655,7 +655,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free when nuked from 6/4/2021 to 1/7/2022",
       CurrentValue: "$1,250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -665,7 +665,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free when nuked from 1/7/2022 to 6/4/2022",
       CurrentValue: "$750,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -675,7 +675,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free when nuked from 1/7/2022 to present",
       CurrentValue: "$500,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -685,7 +685,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$250,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -695,7 +695,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$250,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -705,7 +705,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$250,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -715,7 +715,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$250,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -725,7 +725,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$1,000 after getting VIP",
       CurrentValue: "$100,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -735,7 +735,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -745,7 +745,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -755,7 +755,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -765,7 +765,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -775,7 +775,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -785,7 +785,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -795,7 +795,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -805,7 +805,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -815,7 +815,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -825,7 +825,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -835,7 +835,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -845,7 +845,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -855,7 +855,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -865,7 +865,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -875,7 +875,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -885,7 +885,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -895,7 +895,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -905,7 +905,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -915,7 +915,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -925,7 +925,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -935,7 +935,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -945,7 +945,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at Garage",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -955,7 +955,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Given to players who bought the car chassis demo",
       CurrentValue: "$6,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: ""
     },
@@ -965,7 +965,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Given to players who played jailbreak when it was realeased from beta",
       CurrentValue: "$2,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: ""
     },
@@ -975,7 +975,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Use code wewilltakeover during the alien event in 2019",
       CurrentValue: "$2,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: ""
     },
@@ -985,7 +985,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Was given to players who reached level 50 criminal in og season 2",
       CurrentValue: "$1,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -995,7 +995,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Was given to players who reached level 50 police in og season 2",
       CurrentValue: "$1,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1005,7 +1005,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 1 level 8",
       CurrentValue: "$900,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1015,7 +1015,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 2 level 8",
       CurrentValue: "$900,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -1025,7 +1025,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 1 level 5",
       CurrentValue: "$900,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1035,7 +1035,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 3 level 4",
       CurrentValue: "$750,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -1045,7 +1045,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 5 level 8",
       CurrentValue: "$750,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -1055,7 +1055,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 4 level 5",
       CurrentValue: "$700,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1065,7 +1065,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 6 level 8",
       CurrentValue: "$650,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -1075,7 +1075,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free to players in the top 5% of season 6",
       CurrentValue: "$650,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1085,7 +1085,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free to players in the top 10% of season 6",
       CurrentValue: "$600,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1095,7 +1095,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free to players in the top 1% in season 7",
       CurrentValue: "$600,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -1105,7 +1105,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 7 level 8",
       CurrentValue: "$550,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -1115,7 +1115,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 8 level 8",
       CurrentValue: "$400,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -1125,7 +1125,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 9 level 10",
       CurrentValue: "$400,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "3/10",
       JailbreakWikiLink: ""
     },
@@ -1135,7 +1135,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 10 level 8",
       CurrentValue: "$300,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "3/10",
       JailbreakWikiLink: ""
     },
@@ -1145,7 +1145,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1155,7 +1155,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -1165,7 +1165,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "3/10",
       JailbreakWikiLink: ""
     },
@@ -1175,7 +1175,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1185,7 +1185,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1195,7 +1195,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1205,7 +1205,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1215,7 +1215,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1225,7 +1225,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1235,7 +1235,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$100,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1245,7 +1245,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$100,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1255,7 +1255,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$50,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1265,7 +1265,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$50,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1275,7 +1275,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$50,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1285,7 +1285,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$50,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1295,7 +1295,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$50,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1305,7 +1305,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$50,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -1315,7 +1315,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$45,000",
       CurrentValue: "$45,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1325,7 +1325,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$40,000",
       CurrentValue: "$40,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1335,7 +1335,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$40,000",
       CurrentValue: "$40,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1345,7 +1345,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$40,000",
       CurrentValue: "$40,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1355,7 +1355,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$40,000",
       CurrentValue: "$40,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1365,7 +1365,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$40,000",
       CurrentValue: "$40,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1375,7 +1375,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$40,000",
       CurrentValue: "$40,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1385,7 +1385,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$39,000",
       CurrentValue: "$39,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1395,7 +1395,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$35,000",
       CurrentValue: "$35,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1405,7 +1405,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1415,7 +1415,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1425,7 +1425,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1435,7 +1435,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1445,7 +1445,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1455,7 +1455,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1465,7 +1465,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1475,7 +1475,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$10,000",
       CurrentValue: "$10,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1485,7 +1485,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$10,000",
       CurrentValue: "$10,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1495,7 +1495,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$4,000",
       CurrentValue: "$4,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1505,7 +1505,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$4,000",
       CurrentValue: "$4,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1515,7 +1515,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$2,000",
       CurrentValue: "$2,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1525,7 +1525,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Available in safes from 5/27/17 to 6/4/17",
       CurrentValue: "$55,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: ""
     },
@@ -1535,7 +1535,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Came in a code with jailbreak season 4 inmate toy",
       CurrentValue: "$20,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: ""
     },
@@ -1545,7 +1545,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % with Legendary Safe in 2018 ($30,000)",
       CurrentValue: "$5,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: ""
     },
@@ -1555,7 +1555,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % with Legendary Safe in 2017 ($30,000)",
       CurrentValue: "$5,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: ""
     },
@@ -1565,7 +1565,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$10,000 in og season 1",
       CurrentValue: "$2,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: ""
     },
@@ -1575,7 +1575,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$10,000 in og season 1",
       CurrentValue: "$2,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: ""
     },
@@ -1585,7 +1585,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 1 level 9",
       CurrentValue: "$2,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: ""
     },
@@ -1595,7 +1595,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 1 level 6",
       CurrentValue: "$1,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -1605,7 +1605,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 2 level 3",
       CurrentValue: "$900,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -1615,7 +1615,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by reaching level 40 police team in season 3 and buying for 5,000",
       CurrentValue: "$850,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -1625,7 +1625,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by reaching level 40 criminal team in season 3 and buying for 5,000",
       CurrentValue: "$850,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -1635,7 +1635,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by reaching level 20 police team in season 3 and buying for 5,000",
       CurrentValue: "$850,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -1645,7 +1645,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by reaching level 20 criminal team in season 3 and buying for 5,000",
       CurrentValue: "$850,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -1655,7 +1655,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by attending the 2020 live event",
       CurrentValue: "$800,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1665,7 +1665,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 4 level 8",
       CurrentValue: "$800,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1675,7 +1675,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 5 level 9",
       CurrentValue: "$750,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1685,7 +1685,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by putting the soccer ball on the map into the soccer net",
       CurrentValue: "$750,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1695,7 +1695,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 6 level 7",
       CurrentValue: "$700,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1705,7 +1705,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 6 level 2",
       CurrentValue: "$650,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -1715,7 +1715,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 7 level 9",
       CurrentValue: "$650,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1725,7 +1725,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 7 level 5",
       CurrentValue: "$600,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1735,7 +1735,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 8 level 2",
       CurrentValue: "$600,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -1745,7 +1745,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 8 level 7",
       CurrentValue: "$600,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1755,7 +1755,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 8 top 2 percent",
       CurrentValue: "$600,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -1765,7 +1765,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 9 level 6",
       CurrentValue: "$400,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -1775,7 +1775,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 9 level 5",
       CurrentValue: "$400,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -1785,7 +1785,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 10 level 9",
       CurrentValue: "$300,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -1795,7 +1795,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 10 level 4",
       CurrentValue: "$200,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "3/10",
       JailbreakWikiLink: ""
     },
@@ -1805,7 +1805,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Cost 2,000 when jailbreak hit 4 billion visits",
       CurrentValue: "$200,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -1815,7 +1815,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "                       Getting killed by piggy in the sewers from 5/3/2020 to 2/6/2021    ",
       CurrentValue: "$200,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -1825,7 +1825,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "              Pushing the giant soccer ball into the goal from 3/7/2019 to 4/4/2020",
       CurrentValue: "$100,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -1835,7 +1835,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$100,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -1845,7 +1845,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "? % Chance with Legendary Safe ($30,000)",
       CurrentValue: "$100,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "3/10",
       JailbreakWikiLink: ""
     },
@@ -1855,7 +1855,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$25,000",
       CurrentValue: "$25,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1865,7 +1865,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$10,000",
       CurrentValue: "$10,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1875,7 +1875,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$10,000",
       CurrentValue: "$10,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1885,7 +1885,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$5,000",
       CurrentValue: "$5,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1895,7 +1895,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$1,000",
       CurrentValue: "$1,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1905,7 +1905,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$1,000",
       CurrentValue: "$1,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1915,7 +1915,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$1,000",
       CurrentValue: "$1,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1925,7 +1925,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$1,000",
       CurrentValue: "$1,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1935,7 +1935,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$1,000",
       CurrentValue: "$1,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1945,7 +1945,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$0",
       CurrentValue: "$0",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -1955,7 +1955,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Buy extra storage gamepass",
       CurrentValue: "$25,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: ""
     },
@@ -1965,7 +1965,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Came in a code with jailbreak season 4 inmate toy",
       CurrentValue: "$20,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "10/10",
       JailbreakWikiLink: ""
     },
@@ -1975,7 +1975,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by pushing giant soccer ball into goal from 2018-19",
       CurrentValue: "$3,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "9/10",
       JailbreakWikiLink: ""
     },
@@ -1985,7 +1985,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 2 level 9",
       CurrentValue: "$1,500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -1995,7 +1995,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Reach level 25 on police team during season 4",
       CurrentValue: "$1,250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -2005,7 +2005,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Reach level 25 on criminal team during season 4",
       CurrentValue: "$1,250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -2015,7 +2015,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Reach level 50",
       CurrentValue: "$1,200,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "8/10",
       JailbreakWikiLink: ""
     },
@@ -2025,7 +2025,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Reach level 45 on police team",
       CurrentValue: "$1,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2035,7 +2035,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Reach level 45 on criminal team",
       CurrentValue: "$1,000,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2045,7 +2045,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 2 level 4",
       CurrentValue: "$900,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2055,7 +2055,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 3 level 9",
       CurrentValue: "$850,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2065,7 +2065,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained through safes in 2018",
       CurrentValue: "$850,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2075,7 +2075,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Reach level 15 on police team",
       CurrentValue: "$850,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2085,7 +2085,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Reach level 15 on criminal team",
       CurrentValue: "$850,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2095,7 +2095,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Use code threebillionvisits when jailbreak hit 3 billion visits",
       CurrentValue: "$800,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -2105,7 +2105,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 4 level 6",
       CurrentValue: "$750,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -2115,7 +2115,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 4 level 9",
       CurrentValue: "$750,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -2125,7 +2125,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 5 level 6",
       CurrentValue: "$700,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -2135,7 +2135,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 5 level 3",
       CurrentValue: "$700,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -2145,7 +2145,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 6 level 6",
       CurrentValue: "$650,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -2155,7 +2155,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 6 level 5",
       CurrentValue: "$650,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "6/10",
       JailbreakWikiLink: ""
     },
@@ -2165,7 +2165,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 7 level 4",
       CurrentValue: "$500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -2175,7 +2175,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 7 level 7",
       CurrentValue: "$500,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -2185,7 +2185,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 8 level 4",
       CurrentValue: "$450,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2195,7 +2195,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 8 level 5",
       CurrentValue: "$450,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -2205,7 +2205,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 9 level 9",
       CurrentValue: "$450,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "5/10",
       JailbreakWikiLink: ""
     },
@@ -2215,7 +2215,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 9 level 7",
       CurrentValue: "$300,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "4/10",
       JailbreakWikiLink: ""
     },
@@ -2225,7 +2225,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 10 level 7 with the season pass",
       CurrentValue: "$300,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "7/10",
       JailbreakWikiLink: ""
     },
@@ -2235,7 +2235,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 9 level 2",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -2245,7 +2245,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Jump on the meteor during the 2022 live event",
       CurrentValue: "$250,000",
-      Unobtainable: "True",
+      Unobtainable: "Unobtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -2255,7 +2255,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Free at season 10 level 2",
       CurrentValue: "$200,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -2265,7 +2265,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by putting the soccer ball on the map into the soccer net",
       CurrentValue: "$100,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "2/10",
       JailbreakWikiLink: ""
     },
@@ -2275,7 +2275,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "Obtained by completing the tomb robbery for the first time",
       CurrentValue: "$100,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2285,7 +2285,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$50,000",
       CurrentValue: "$50,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2295,7 +2295,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$50,000",
       CurrentValue: "$50,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2305,7 +2305,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$30,000",
       CurrentValue: "$30,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2315,7 +2315,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$25,000",
       CurrentValue: "$25,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2325,7 +2325,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2335,7 +2335,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$20,000",
       CurrentValue: "$20,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2345,7 +2345,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$15,000",
       CurrentValue: "$15,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2355,7 +2355,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$15,000",
       CurrentValue: "$15,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2365,7 +2365,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$10,000",
       CurrentValue: "$10,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2375,7 +2375,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$7,500",
       CurrentValue: "$7,500",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     },
@@ -2385,7 +2385,7 @@ var data = [
       Subcategory: "",
       ReleasePrice: "$5,000",
       CurrentValue: "$5,000",
-      Unobtainable: "False",
+      Unobtainable: "Obtainable",
       Demand: "1/10",
       JailbreakWikiLink: ""
     }
