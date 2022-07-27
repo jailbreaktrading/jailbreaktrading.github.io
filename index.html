@@ -18,14 +18,14 @@ body {
     <div class="w3-quarter w3-card">
       <form class="w3-container">
         <div class="w3-twothird">  
-          <input class=" w3-input w3-border w3-round-large" id="search" type="text" placeholder="Search.." name="search">
-        </div>
-        <div class="w3-third">  
-          <input class="w3-btn w3-ripple w3-round-large w3-orange" type="submit" onclick="return Search()"></input>
-        </div>
+          <input class="form-control" id="search" type="text" placeholder="Search.." name="search">
+
+        </div>  
+          <input class="w-25 btn btn-primary" type="submit" onclick="return Search()" value="Search"></input>
+
       </form>
-    <div style="display:none" id="SearchDisplay"></div>
-    <div style="display:none" id="NoMatchDisplay">No match found!</div>
+    <div style="display:none" id="SearchDisplay" style="overflow:scroll;"></div>
+    <div style="display:none" id="NoMatchDisplay">That's not in out list of tradable items. Check if you're spelling <s>sometihng</s> something wrong.</div>
   </div>
   
   </body>
