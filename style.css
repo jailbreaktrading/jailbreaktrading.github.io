@@ -1,4 +1,4 @@
-/* JailbreakTrading v1.0 (Last updated 8/17/2022) */
+/* JailbreakTrading v1.1 (Last updated 8/22/2022) */
 *,
 h2,
 h3,
@@ -42,6 +42,10 @@ p {
 
 .jt-white {
 	color: fff;
+}
+
+pre, code, .language-javascript {
+	font-family:Consolas,"courier new"!important;
 }
 
 #footer {

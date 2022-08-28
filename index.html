@@ -1,4 +1,4 @@
-<!-- JailbreakTrading v1.0 (Last updated 8/17/2022) -->
+<!-- JailbreakTrading v1.1 (Last updated 8/22/2022) -->
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -27,12 +27,21 @@
       <link rel="stylesheet" href="style.css"/>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFEFMVBFFB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KFEFMVBFFB');
+</script>
+<style>*, h2, h3, h4, h5, h6, p {font-family: 'Poppins', sans-serif;}</style>
       <title>Item Lookup | JailbreakTrading</title>
       <link rel="icon" type="image/x-icon" href="/images/logo.png">
-      <style>*,h2, h3, h4, h5, h6, p {font-family: 'Poppins', sans-serif;}</style>
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,19 +51,23 @@
                <a class="nav-link active" aria-current="page" href="/index.html">Item Lookup</a>
                <a class="nav-link" href="/credits.html">Credits</a>
                <a class="nav-link" href="/releases.html">Release Notes</a>
+               <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1FTcxe5ZENXOxIckDpRP-0O0c-iI81aWP8Kiaq_ybmKI/edit?usp=sharing">Data</a>
             </div>
          </div>
       </nav>
       <div class="w3-center w3-margin-top">
-         <b><span style="font-size:100px;color:#f97631">Jailbreak</span><span style="font-size:100px;color:#3aceff">Trading</span></b>
-         <h2>Look up almost any tradeable item in Roblox Jailbreak!</h2>
-         <form class="container"><input style="width:100%;" class="form-control" id="search" type="text" placeholder="Search.." name="search">
+         <img src="/images/logo text.svg" width="50%">
+         <p style="font-size:2vw;">Look up almost any tradeable item in Roblox Jailbreak!</p>
+      <form class="container">
+      <div class="input-group">
+         <input class="form-control" id="search" type="text" placeholder="Search..." name="search">
+         <button class="btn btn-outline-secondary" type="submit" onclick="return Search()" value="Search">Search</button>
+            </form>
+       </div>
       </div>
-      <input style="display:none" class="btn btn-primary" type="submit" onclick="return Search()" value="Search"></input>
-      </form>
-      <br>
+         <br>
       <div class="w3-center" style="display:none" id="SearchDisplay" style="overflow:scroll;"></div>
-      <div class="w3-center" style="display:none" id="NoMatchDisplay">That's not in out list of tradeable items. Check if you're spelling <s>sometihng</s> something wrong.</div>
-      </div>
+      <div class="w3-center" style="display:none" id="NoMatchDisplay">That's not in our list of tradeable items. Check if you're spelling <del>sometihng</del> <ins>something</ins> wrong.</div>
+      <noscript><p class="w3-center">This site needs JavaScript support in order to function. Make sure it's enabled!</p></noscript>  
    </body>
 </html>

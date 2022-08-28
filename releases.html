@@ -1,78 +1,237 @@
-<!-- JailbreakTrading v1.0 (Last updated 8/17/2022) -->
+<!-- JailbreakTrading v1.1 (Last updated 8/22/2022) -->
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8"/>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Item Lookup | JailbreakTrading</title>
-      <meta name="description" content="Find values of tradeable items in Roblox Jailbreak. Check it out! | JailbreakTrading"/>
-      <link rel="canonical" href="https://jailbreaktrading.github.io"/>
-      <meta name=”robots” content=”index, follow”>
-      <!-- OpenGraph Meta Tags -->
-      <meta property="og:type" content="search"/>
-      <meta property="og:title" content="Item Lookup | JailbreakTrading"/>
-      <meta property="og:description" content="Find values of tradeable items in Roblox Jailbreak. Check it out! | JailbreakTrading"/>
-      <meta property="og:image" content="/images/logo.png"/>
-      <meta property="og:url" content="https://jailbreaktrading.github.io"/>
-      <meta property="og:site_name" content="JailbreakTrading"/>
-      <!-- Twitter Meta Tags -->
-      <meta name="twitter:title" content="Item Lookup | JailbreakTrading">
-      <meta name="twitter:description" content="Find values of tradeable items in Roblox Jailbreak. Check it out! | JailbreakTrading">
-      <meta name="twitter:image" content="/images/logo.png">
-      <meta name="twitter:site" content="@bkuroh17">
-      <meta name="twitter:creator" content="@bkuroh17">
-      <script src="/app.js"></script>
-      <script src="/data/data.js"></script>
-      <link rel="stylesheet" href="style.css"/>
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-      <title>Item Lookup | JailbreakTrading</title>
-      <link rel="icon" type="image/x-icon" href="/images/logo.png">
-      <style>*,h2, h3, h4, h5, h6, p {font-family: 'Poppins', sans-serif;}</style>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html"><img src="/images/logo.svg" width="75px"></a>
-            <div style="font-size: 1.5em;" class="navbar-nav">
-               <a class="nav-link" href="/index.html">Item Lookup</a>
-               <a class="nav-link" href="/credits.html">Credits</a>
-               <a class="nav-link active" aria-current="page" href="/releases.html">Release Notes</a>
-            </div>
-         </div>
-      </nav>
-      <div class="container w3-margin-top">
-         <div class="card w3-margin">
-            <div class="card-header">
-               Coming Soon
-            </div>
-            <div class="card-body">
-               <h5 class="card-title"></h5>
-               <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Mobile Support</li>
-                  <li class="list-group-item">Updated Data for <a href="https://www.youtube.com/watch?v=p0qgwYauRuE&t=3s">New Safe Items</a>, <a href="https://jailbreak.fandom.com/wiki/Snake">Snake</a>, <a href="https://www.youtube.com/watch?v=Jou1R5peLqc">HyperChromes</a>, <a href="https://jailbreak.fandom.com/wiki/Seasons#Season_11:_Toys_and_Collectibles">Season 11 Rewards</a>, <a href="https://jailbreak.fandom.com/wiki/Weapon_Skins">Gun Skins</a>, and <a href="https://jailbreak.fandom.com/wiki/Houses_%26_Apartments#Furniture_List">Furniture Items</a></li>
-               </ul>
-            </div>
-         </div>
-         <div class="card w3-margin">
-            <div class="card-header">
-               Release v1.0 - August 17, 2022
-            </div>
-            <div class="card-body">
-               <h5 class="card-title"></h5>
-               <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Added navbar</li>
-                  <li class="list-group-item">Added <a href="/credits.html">credits page</a></li>
-                  <li class="list-group-item">Added <a href="/releases.html">releases page</a></li>
-                  <li class="list-group-item">Created a <a href="/images/logo.svg">logo</a></li>
-                  <li class="list-group-item">Updated data</li>
-               </ul>
-            </div>
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Release Notes | JailbreakTrading</title>
+    <meta
+      name="description"
+      content="Find values of tradeable items in Roblox Jailbreak. Check it out! | JailbreakTrading"
+    />
+    <link rel="canonical" href="https://jailbreaktrading.github.io" />
+    <meta name="”robots”" content="”index," follow” />
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:type" content="search" />
+    <meta property="og:title" content="Release Notes | JailbreakTrading" />
+    <meta
+      property="og:description"
+      content="Find values of tradeable items in Roblox Jailbreak. Check it out! | JailbreakTrading"
+    />
+    <meta property="og:image" content="/images/logo.png" />
+    <meta property="og:url" content="https://jailbreaktrading.github.io" />
+    <meta property="og:site_name" content="JailbreakTrading" />
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:title" content="Release Notes | JailbreakTrading" />
+    <meta
+      name="twitter:description"
+      content="Find values of tradeable items in Roblox Jailbreak. Check it out! | JailbreakTrading"
+    />
+    <meta name="twitter:image" content="/images/logo.png" />
+    <meta name="twitter:site" content="@bkuroh17" />
+    <meta name="twitter:creator" content="@bkuroh17" />
+    <script src="/app.js"></script>
+    <script src="/data/data.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="/prism/prism.css" rel="stylesheet" />
+    <script src="/prism/prism.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KFEFMVBFFB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KFEFMVBFFB");
+    </script>
+    <style>
+      code {
+        font-family: "Courier New", Courier, monospace !important;
+      }
+      *,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <title>Release Notes | JailbreakTrading</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"
+          ><img src="/images/logo.svg" width="75px"
+        /></a>
+        <div style="font-size: 1.5em" class="navbar-nav">
+          <a class="nav-link" href="/index.html">Item Lookup</a>
+          <a class="nav-link" href="/credits.html">Credits</a>
+          <a class="nav-link active" aria-current="page" href="/releases.html"
+            >Release Notes</a
+          >
+          <a
+            class="nav-link"
+            href="https://docs.google.com/spreadsheets/d/1FTcxe5ZENXOxIckDpRP-0O0c-iI81aWP8Kiaq_ybmKI/edit?usp=sharing"
+            >Data</a
+          >
+        </div>
       </div>
-   </body>
+    </nav>
+    <div class="container w3-margin-top">
+      <div class="card w3-margin">
+        <div class="card-header">Coming Soon</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Updated data for
+              <a
+                href="https://www.youtube.com/watch?v=p0qgwYauRuE&t=3s"
+                target="_blank"
+                >New Safe Items</a
+              >,
+              <a
+                href="https://jailbreak.fandom.com/wiki/Seasons#Season_11:_Toys_and_Collectibles"
+                target="_blank"
+                >Season 11 Rewards</a
+              >,
+              <a
+                href="https://jailbreak.fandom.com/wiki/Weapon_Skins"
+                taget="_blank"
+                >Gun Skins</a
+              >, and
+              <a
+                href="https://jailbreak.fandom.com/wiki/Houses_%26_Apartments#Furniture_List"
+                target="_blank"
+                >Furniture Items</a
+              >
+            </li>
+            <li class="list-group-item">
+              Images for
+              <a
+                href="jailbreak.fandom.com/wiki/Vehicle_customization"
+                target="_blank"
+                >Vehicle Customization</a
+              >,
+              <a
+                href="https://jailbreak.fandom.com/wiki/Weapon_Skins"
+                target="_blank"
+                >Gun Skins</a
+              >, etc.
+            </li>
+            <li class="list-group-item">Mobile Support</li>
+            <li class="list-group-item">
+              Getting other people to help with data
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card w3-margin">
+        <div class="card-header bg-primary text-white">
+          Release v1.1 (Current)
+        </div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Switched source images to local storage, in the event of a link
+              breaking on the
+              <a
+                href="https://jailbreak.fandom.com/wiki/Jailbreak_Wiki:Home"
+                target="_blank"
+                >Jailbreak Wiki</a
+              >
+              <br /><br />
+              Jailbreak Wiki as Image Source:<br />
+              <pre><code class="language-javascript">{ImgLink: "https://static.wikia.nocookie.net/rblx-jailbreak/images/4/40/Torpedo.png"}</code></pre>
+              <br />
+              Local Storage as Image:<br />
+              <pre><code class="language-javascript">{ImgLink: "/data/images/Vehicles/Torpedo.png"}</code></pre>
+            </li>
+            <li class="list-group-item">
+              Fixed grammatical errors in values for Release Prices
+            </li>
+            <li class="list-group-item">
+              Added
+              <a href="https://jailbreak.fandom.com/wiki/Snake" target="blank"
+                >Snake</a
+              >
+              and
+              <a
+                href="https://www.youtube.com/watch?v=Jou1R5peLqc"
+                target="_blank"
+                >HyperChromes</a
+              >
+            </li>
+            <li class="list-group-item">
+              Replaced dollar signs with a cash icon <br /><br />
+              $Dollar Sign
+              <br /><br />
+              <img src="/data/images/Miscellaneous/Cash.png" width="16px" />Cash
+              Icon
+            </li>
+            <li class="list-group-item">
+              Added a "<a
+                href="https://docs.google.com/spreadsheets/d/1FTcxe5ZENXOxIckDpRP-0O0c-iI81aWP8Kiaq_ybmKI/edit?usp=sharing"
+                >Data</a
+              >" tab to the navbar
+            </li>
+            <li class="list-group-item">Revamped search bar</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated August 22, 2022</small>
+        </div>
+      </div>
+      <div class="card w3-margin">
+        <div class="card-header">Release v1.0</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Added navbar</li>
+            <li class="list-group-item">
+              Added <a href="/credits.html">credits page</a>
+            </li>
+            <li class="list-group-item">
+              Added <a href="/releases.html">releases page</a>
+            </li>
+            <li class="list-group-item">
+              Created a <a href="/images/logo.svg">logo</a>
+            </li>
+            <li class="list-group-item">Updated data</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated August 17, 2022</small>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
