@@ -1,0 +1,56 @@
+/* JailbreakTrading v1.1 (Last updated 8/22/2022) */
+*,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.w3-card {
+	text-align: center;
+	padding: 1em;
+	margin: 1em;
+}
+
+.jt-ItemName {
+	font-size: 3em;
+}
+
+
+.jt-orange {
+	color: f97b31;
+}
+
+.jt-red {
+	color: f8272f;
+}
+
+.jt-blue {
+	color: 3accff;
+}
+
+.jt-green {
+	color: 31cc31;
+}
+
+.jt-black {
+	color: 000;
+}
+
+.jt-white {
+	color: fff;
+}
+
+pre, code, .language-javascript {
+	font-family:Consolas,"courier new"!important;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
